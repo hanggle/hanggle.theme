@@ -25,8 +25,5 @@ jobs:
         npm install hexo --save
         npx hexo clean
         npx hexo deploy --generate
-        npm ci
-        npm run build --if-present
-        npm test
       env:
         CI: true
